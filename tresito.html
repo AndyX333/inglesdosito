@@ -1,0 +1,56 @@
+
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Videos - Inglés Básico</title>
+    <link rel="stylesheet" href="disenio3.css">
+</head>
+
+<body>
+
+    <h1 id="bienvenida">WELCOME!</h1>
+
+    <p class="introduccion">
+        ¡Estamos felices de que quieras aprender inglés!
+    </p>
+
+    <h2>Para iniciar, veremos un breve repaso del verbo To Be.</h2>
+
+    <table class="distribucion">
+        <tr>
+
+            <td class="video">
+                <video controls>
+                    <source src="vieop.mp4" type="video/mp4">
+                    Tu navegador no puede reproducir este video.
+                </video>
+            </td>
+
+            <td class="enlaces">
+                <a href="dosito.html">← Regresar a la página dos</a>
+
+                <a href="cuatrosito.html">Ir a la siguiente página →</a>
+            </td>
+
+        </tr>
+    </table>
+
+    <script>
+        const parametros = new URLSearchParams(window.location.search);
+        const nombre = parametros.get("nombre");
+
+        if (nombre) {
+            document.getElementById("bienvenida").textContent =
+                "WELCOME, " + nombre + "!";
+        }
+    </script>
+
+</body>
+
+</html>
+
+
+

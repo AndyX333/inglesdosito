@@ -1,0 +1,62 @@
+html, body {
+  height: 100%;
+}
+
+body {
+  background-image: url("imagenes/Diseño\ sin\ título.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.texto-blanco{
+  color: rgb(255, 255, 255);
+  
+  text-align: center;
+  top: 70px;
+  left: 50px;
+  font-family: cursive;
+}
+
+.texto-blanco-2{
+  color: rgb(255, 255, 255);
+  
+  top: 110px;  
+  text-align: center;
+  left: 40px;
+  font-size: 60px; 
+  font-family: cursive;
+}
+.lol{
+  color: rgb(255, 255, 255); 
+  top: 90px;  
+  text-align: center;
+  left: 30px;
+  font-size:20px; 
+  font-family: cursive;
+}
+.decoracion {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    width: 500px;
+    z-index: 10;
+}
+
+.enlace {
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 40px;
+}
+a {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 25px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+a:hover {
+    color: #e84393;
+}
